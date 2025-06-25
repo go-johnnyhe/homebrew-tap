@@ -5,20 +5,20 @@
 class Leetmock < Formula
   desc "A CLI tool for mocking LeetCode data"
   homepage "https://github.com/go-johnnyhe/leetmock"
-  version "0.1.19"
+  version "0.1.20"
 
   on_macos do
     on_intel do
-      url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.19/leetmock_0.1.19_darwin_amd64.tar.gz"
-      sha256 "68f790689eb953f5123d46fa79ce8124ddc02659f5968130980c13d8476e24fa"
+      url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.20/leetmock_0.1.20_darwin_amd64.tar.gz"
+      sha256 "985f97ac594e233c7b2f7c73e0804175759ea1466db3c034c85d25efa10087a0"
 
       def install
         bin.install "leetmock"
       end
     end
     on_arm do
-      url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.19/leetmock_0.1.19_darwin_arm64.tar.gz"
-      sha256 "7901a250306c3dfd2bd5726da035fdfd52feefb8d819d40153e9ef6697efd7ca"
+      url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.20/leetmock_0.1.20_darwin_arm64.tar.gz"
+      sha256 "e03b43a8da5ffebfa77acf3bf06998881925da755ebbe27c208738ee632e5ebd"
 
       def install
         bin.install "leetmock"
@@ -29,8 +29,8 @@ class Leetmock < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.19/leetmock_0.1.19_linux_amd64.tar.gz"
-        sha256 "ac36be0c4739ae8e849174f7edb04af5fa11cffaebcfe9acdcd77c6ef6d0046a"
+        url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.20/leetmock_0.1.20_linux_amd64.tar.gz"
+        sha256 "97d05fb23b9d17980b37eca7acac065ed68add1ce9afb042505ca8ba5ac639d4"
 
         def install
           bin.install "leetmock"
@@ -39,8 +39,8 @@ class Leetmock < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.19/leetmock_0.1.19_linux_arm64.tar.gz"
-        sha256 "55911c0ae848aed1579fdc7f11db6c8ebb6fa087b17ac66a148138e9582d3c82"
+        url "https://github.com/go-johnnyhe/leetmock/releases/download/v0.1.20/leetmock_0.1.20_linux_arm64.tar.gz"
+        sha256 "4c244ca0486f9f80f738feb3a7096410010110e4442813e067c68c7cfeb5dcc8"
 
         def install
           bin.install "leetmock"
