@@ -5,20 +5,20 @@
 class Waveland < Formula
   desc "A CLI tool for mocking LeetCode data"
   homepage "https://github.com/go-johnnyhe/waveland"
-  version "0.1.25"
+  version "0.1.26"
 
   on_macos do
     on_intel do
-      url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.25/waveland_0.1.25_darwin_amd64.tar.gz"
-      sha256 "ac23b8d23f00ab42e1e867f68cddb409d5cf509da6a2df4adb9367785b0f65ea"
+      url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.26/waveland_0.1.26_darwin_amd64.tar.gz"
+      sha256 "41cf18b29762bdfb97ced43ff295396c64d8cc516cffa44172254329f4337ff0"
 
       def install
         bin.install "waveland"
       end
     end
     on_arm do
-      url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.25/waveland_0.1.25_darwin_arm64.tar.gz"
-      sha256 "2600e97f1704b8630efc8c1bd32c620f5f8fce681e552a2fb2b67c7b7ffacfea"
+      url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.26/waveland_0.1.26_darwin_arm64.tar.gz"
+      sha256 "5ff854456b5d98051eeb43fd2f99990096ff6f6e133bccef4cb325880c901737"
 
       def install
         bin.install "waveland"
@@ -29,8 +29,8 @@ class Waveland < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.25/waveland_0.1.25_linux_amd64.tar.gz"
-        sha256 "24579dbfeb2509534eeb476e6f24a62486d0afa6a84eaf72f6ac886639e38085"
+        url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.26/waveland_0.1.26_linux_amd64.tar.gz"
+        sha256 "f6a272ded1e8f6372b8f37055038d472564420aa7e013fbec8621e6a4f6a8f0c"
 
         def install
           bin.install "waveland"
@@ -39,8 +39,8 @@ class Waveland < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.25/waveland_0.1.25_linux_arm64.tar.gz"
-        sha256 "35645ce3c860738a43f6b5153fa4b83f44b96f08fbcd813a80a2ce1694fe3c87"
+        url "https://github.com/go-johnnyhe/waveland/releases/download/v0.1.26/waveland_0.1.26_linux_arm64.tar.gz"
+        sha256 "db6da5409cf677f462ace89bfdd48ac70549feba3d705689e49f6ff5cfb1e24c"
 
         def install
           bin.install "waveland"
