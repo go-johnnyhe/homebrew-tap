@@ -5,20 +5,20 @@
 class Shadow < Formula
   desc "A CLI tool collab coding"
   homepage "https://github.com/go-johnnyhe/shadow"
-  version "0.3.4"
+  version "0.3.5"
 
   on_macos do
     on_intel do
-      url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.4/shadow_0.3.4_darwin_amd64.tar.gz"
-      sha256 "6682e99f056d4b577414b418ea214555a161fbb165f344c55453ffdd32b2e623"
+      url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.5/shadow_0.3.5_darwin_amd64.tar.gz"
+      sha256 "54f8ed121a2212ad839c8e6efe083be3eb3bf4e5cd8e3fc1df62a83baad1fee9"
 
       def install
         bin.install "shadow"
       end
     end
     on_arm do
-      url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.4/shadow_0.3.4_darwin_arm64.tar.gz"
-      sha256 "ac8b665ca6103d87e8f76dbfd1acfaf708b8deee3d44d9d18aa8a5058f9cf2d0"
+      url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.5/shadow_0.3.5_darwin_arm64.tar.gz"
+      sha256 "082cda618186b218f4af0fb3466f22209a4ae31e9393053fc0a8711e6446d2d2"
 
       def install
         bin.install "shadow"
@@ -29,8 +29,8 @@ class Shadow < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.4/shadow_0.3.4_linux_amd64.tar.gz"
-        sha256 "e9258507bb95d1362a72308457bd03270757b8c168f2ae7af5f771eaccc72394"
+        url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.5/shadow_0.3.5_linux_amd64.tar.gz"
+        sha256 "a2d7d148a354119461c11c9afea131307d2a255adb6f9b319594ca3635a4f2b5"
 
         def install
           bin.install "shadow"
@@ -39,8 +39,8 @@ class Shadow < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.4/shadow_0.3.4_linux_arm64.tar.gz"
-        sha256 "b5ff90e92b20a2ad08e64db7cfb299f98c0fe09e88301f75a55255ba91e29183"
+        url "https://github.com/go-johnnyhe/shadow/releases/download/v0.3.5/shadow_0.3.5_linux_arm64.tar.gz"
+        sha256 "f95ceb8e1112c4c9fee545d9229ef7115e4585adf5c7e71cbe2079f2f4e26e48"
 
         def install
           bin.install "shadow"
